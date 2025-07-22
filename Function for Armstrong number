@@ -1,0 +1,12 @@
+def isArmstrong(x):
+     
+    temp = x
+    sum1 = 0
+     
+    while (temp != 0):
+        r = temp % 10
+        sum1 = sum1 + r**3
+        temp = temp // 10
+ 
+    # If condition satisfies
+    return (sum1 == x)
