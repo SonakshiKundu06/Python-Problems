@@ -1,0 +1,5 @@
+p=int(input("enter value of principle:"))
+r=int(input("enter value of rate:"))
+t=int(input("enter value of time:"))
+si=(p*r*t)/100
+print(si)
