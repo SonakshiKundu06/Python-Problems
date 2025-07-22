@@ -1,0 +1,5 @@
+import math
+b=int(input("enter the value of base:"))
+h=int(input("enter the value of height:"))
+l=math.sqrt((b*2) + (h*2))
+print("the length of the hypotenuse:",l)
