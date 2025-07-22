@@ -1,0 +1,5 @@
+a=int(input("write number:"))
+if a%5==0:
+    print("written number is multiple of 5")
+else:
+    print("numer is not multiple of 5.")
