@@ -1,0 +1,6 @@
+str="sonakshi"
+for i in str:
+    print(i.upper())
+
+str="sonakshi"
+print(str.upper())
