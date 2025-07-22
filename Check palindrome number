@@ -1,0 +1,15 @@
+def palindrome(n):
+    rem=0
+    rev=0
+    orgnum=n
+    while(orgnum!=0):
+        rem=int(orgnum%10)
+        rev=int(rev*10 + rem)
+        orgnum=orgnum//10
+    print(rev)
+    if rev==n:
+        print("it is palindrome number!!")
+    else:
+        print("it is not palindrome number!!")
+n=int(input("enter number for checking:"))
+print(palindrome(n))
