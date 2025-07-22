@@ -1,0 +1,3 @@
+n=int(input("enter number to be shifted:"))
+print("left shift by 1 and 2:",n<<1, n<<2)
+print("right shift by 1 and 2:",n>>1, n>>2)
