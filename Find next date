@@ -1,0 +1,29 @@
+import datetime
+day=int(input("enter date:"))
+month=int(input("enter month:"))
+year=int(input("enter year:"))
+if year%4==0:
+    if month==2:
+        totaldays=29
+    elif month in [4,6,9,11]:
+        totaldays=30
+    else:
+        totaldays=31
+else:
+    if month==2:
+        totaldays=28
+    elif month in [4,6,9,11]:
+        totaldays=30
+    else:
+        totaldays=31
+if day<totaldays:
+    day=day+1
+    date1=datetime.date(year , month , day)
+    print("next date:",date1)
+else:
+    if month==12:
+        year=year+1
+        print("next date:",year,"-1-","-1")
+    else:
+        month=month+1
+        print("next date:",year,month,"01")
