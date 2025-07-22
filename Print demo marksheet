@@ -1,0 +1,35 @@
+# Name=input("enter name of student:")
+# roll_no=input("enter roll number:")
+# SAP_ID=int(input("enter SAP ID:"))
+# course=input("enter course:")
+# sem=int(input("enter semester of student:"))
+# a=int(input("enter marks of python:"))
+# b=int(input("enter marks of maths:"))
+# c=int(input("enter marks of physics:"))
+# d=int(input("enter marks of chemistry:"))
+# e=int(input("enter marks of social studies:"))
+# percentage=((a+b+c+d+e)/500)*100
+# CGPA=percentage//10
+# print("name=",Name,"\nroll_no:",roll_no,"\t\tSAP_ID:",SAP_ID,"\nsemester:",sem,"\t\tcourse=",course)
+# print("subject name:marks\n")
+# print("\npython\t:",a)
+# print("\nmaths\t: ",b)
+# print("\nphysics\t :",c)
+# print("\nchemistry:",d)
+# print("\nsocialstudies:",e)
+# print("\npercentage:",percentage)
+# print("\nCGPA:",CGPA)
+# if CGPA>=0 and CGPA<=3.4:
+#     print("\nGrade=F\n")
+# elif CGPA>=3.5 and CGPA<=5:
+#     print("Grade=C+\n")
+# elif CGPA>=5.1 and CGPA<=6:
+#     print("Grade=B\n")
+# elif CGPA>=6.1 and CGPA<=7:
+#     print("Grade=B+\n")
+# elif CGPA>=7.1 and CGPA<=8:
+#     print("Grade=A\n")
+# elif CGPA>=8.1 and CGPA<=9:
+#     print("Grade=A++\n")
+# else:  
+#     print("Grade=O\n")
