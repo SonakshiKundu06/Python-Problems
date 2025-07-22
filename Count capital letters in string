@@ -1,0 +1,9 @@
+string="SoNaKsHi"
+upper=" "
+count=0
+for char in string:
+    if char.isupper():
+        upper+=char
+        count+=1
+print("upper case characters are:",upper)
+print(count)
