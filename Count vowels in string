@@ -1,0 +1,6 @@
+string="you are best"
+vowels="aeiou"
+count=0
+final = [each for each in string if each in vowels]
+print(final)           # printing vowels
+print(len(final))      # counting vowels
